@@ -16,7 +16,7 @@
 	<h1>Churn Prediction</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
-    <form class="" action="data" method="post">
+    <form action="{{ url_for('data')}}" method="post">
       <input type="file" name="upload-file" value="">
       <input type="submit" name="" value="submit">
       
